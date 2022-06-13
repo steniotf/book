@@ -1,0 +1,141 @@
+.carrousel__title {
+  color: var(--cor-title);
+  background: var(--branco);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  font-size: 1.125rem;
+  padding: 2rem 0 .8rem 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination {
+  position: initial;
+  margin: .5rem 0;
+}
+
+.card__description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .5rem 0;
+}
+
+.description__title {
+  color: var(--cor-title);
+  font-weight: var(--font-weight-bold);
+  font-size: 1rem;
+}
+
+.description__title-livro {
+  color: var(--cor-principal);
+  font-weight: var(--font-weight-bold);
+  font-size: 1.125rem;
+  margin: .7rem 0;
+}
+
+.description__title-text {
+  font-size: .875rem;
+  font-weight: var(--font-weight-regular);
+}
+
+.description img {
+  margin: 1rem 0;
+}
+
+.card {
+  background: var(--branco);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.button__items {
+  margin: 0 .5rem;
+}
+
+.btn {
+  background-color: var(--cor-title);
+  padding: 1rem 1.7rem;
+  color: var(--branco);
+  text-align: center;
+  font-weight: var(--font-weight-bold);
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width:1024px) {
+  .carrousel__title {
+    font-size: 1.5rem;
+  }
+
+  .swiper-pagination {
+    margin: 3rem 0 3rem 0;
+  }
+
+  .swiper {
+    width: 60%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+
+  .card {
+    width: 40%;
+    margin: 2rem auto;
+  }
+}
+
+
+@media screen and (min-width: 1728px) {
+  .carrousel__container {
+    display: flex;
+    align-items: center;
+    margin: 0 20vw 3rem 20vw;
+  }
+  .swiper {
+    width: 50%;
+  }
+  .swiper-pagination {
+    margin: 1rem 0;
+  }
+  .card{
+    width: 60%;
+    margin-left: 3rem;
+  }
+  .description__title-livro {
+    font-size: .9rem;
+}
+
+.description__title-text{
+
+}
+
+.description {
+  margin-right: 2rem ;
+}
+
+}

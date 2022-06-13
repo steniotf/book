@@ -1,0 +1,31 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('header.css');
+@import url('banner.css');
+@import url('carrousel.css');
+@import url('topicos.css');
+@import url('contato.css');
+@import url('rodape.css');
+
+/*Váriaveis*/
+:root{
+  --cor-de-fundo:#EBECEE;
+  --cor-principal:#002F52;
+  --cor-title:#eb9b00;
+  --cor-cinza:#474646;
+  --cor-cinza-claro:#858585;
+  --azul-degadre:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  --branco:#fff;
+  --font-principal:'Poppins';
+  --font-weight-bold:700;
+  --font-weight-semibold:500;
+  --font-weight-regular:400;
+}
+*{
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-color: var(--cor-de-fundo);
+  font-family: var(--font-principal);
+}

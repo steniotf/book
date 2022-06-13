@@ -1,0 +1,89 @@
+/*BANNER*/
+.banner {
+	background: var(--azul-degadre);
+	text-align: center;
+	padding: 2.5rem 2rem;
+}
+
+.banner__title {
+	color: var(--branco);
+	font-size: 1.125rem;
+	font-weight: var(--font-weight-bold);
+}
+
+.banner_text {
+	color: var(--branco);
+	font-weight: var(--font-weight-semibold);
+	margin: 1rem 0;
+}
+
+.banner__search {
+	background: transparent;
+	border: 1px solid var(--branco);
+	color: var(--branco);
+	border-radius: 1.5rem;
+	padding: 1rem;
+	width: 100%;
+}
+
+.banner__search::placeholder {
+	font-size: 0.875rem;
+	font-weight: var(--font-weight-regular);
+	color: var(--branco);
+	text-align: center;
+	background-image: url(../images/lupa.svg);
+	background-repeat: no-repeat;
+	background-position: 5.5em 0.1em;
+}
+
+@media screen and (min-width: 1024px) {
+	.banner {
+		background: var(--azul-degadre);
+		text-align: center;
+		padding: 8rem 2rem;
+	}
+
+	.banner__title {
+		font-size: 2.25rem;
+	}
+
+	.banner__search {
+		background: transparent;
+		border: 1px solid var(--branco);
+		color: var(--branco);
+		border-radius: 1.5rem;
+		padding: 1rem;
+		width: 30%;
+	}
+
+	.banner__search::placeholder {
+		background-position: 8rem;
+	}
+}
+
+
+@media screen and (min-width: 1728px) {
+	.banner {
+		background: var(--azul-degadre);
+		text-align: center;
+		padding: 6rem 0;
+	}
+
+	.banner__title {
+		font-size: 2.25rem;
+	}
+
+	.banner__search {
+		background: transparent;
+		border: 1px solid var(--branco);
+		color: var(--branco);
+		border-radius: 1.5rem;
+		padding: 1rem;
+		width: 30%;
+	}
+
+	.banner__search::placeholder {
+		background-position: 10rem;
+	}
+
+
