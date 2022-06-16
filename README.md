@@ -1,2 +1,2 @@
 # book
-Projeto feito sobre curso de mobile firts
+Projeto feito no curso de mobile firt
